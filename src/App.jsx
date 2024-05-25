@@ -4,16 +4,18 @@ import BankVerification from './context/BankVerification';
 import BankDeposit from './context/BankDeposit';
 import CallBack from './callback/CallBack';
 import Counter from './reducer/Reducer';
+import UseLayoutEffect from './layouteffect/UseLayoutEffect';
 
 const App = () => {
   return (
     <div>
       {/* <CallBack /> */}
-      <Counter />
+      {/* <Counter /> */}
       {/* <BankAccount>
         <BankVerification />
         <BankDeposit />
       </BankAccount> */}
+      <UseLayoutEffect />
     </div>
   )
 };
