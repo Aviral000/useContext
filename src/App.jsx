@@ -7,6 +7,8 @@ import React from 'react';
 // import UseLayoutEffect from './layouteffect/UseLayoutEffect';
 
 import { Bank, BankAcc } from './contextAgain/Bank';
+import Account from './contextAgain/Account';
+import Deposit from './contextAgain/Deposit';
 
 const App = () => {
   return (
@@ -18,7 +20,10 @@ const App = () => {
         <BankDeposit />
       </BankAccount> */}
       {/* <UseLayoutEffect /> */}
-      
+      <Bank>
+        <Account />
+        <Deposit />
+      </Bank>
     </div>
   )
 };
